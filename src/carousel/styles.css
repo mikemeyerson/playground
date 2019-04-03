@@ -1,0 +1,58 @@
+.carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgb(189, 189, 189);
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.dot-list {
+  font-size: 2rem;
+  display: flex;
+  width: 100px;
+  justify-content: space-evenly;
+}
+
+.dot {
+  cursor: pointer;
+}
+
+.carousel-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 80%;
+}
+
+.slide {
+  position: absolute;
+  opacity: 0;
+  padding: 1rem;
+  transition: all 1.3s ease;
+}
+
+.active {
+  opacity: 1;
+}
+
+.slide img {
+  background-color: white;
+  max-width: 300px;
+}
